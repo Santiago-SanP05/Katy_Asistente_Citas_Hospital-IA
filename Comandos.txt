@@ -1,0 +1,7 @@
+Comando para instalar la ia de Gemini
+pip install google-generativeai
+
+
+import google.generativeai as genai
+
+genai.configure(api_key="AIzaSyDMpY3rjM6oBTOcWQXU_JR_xO13Rmszvew")
